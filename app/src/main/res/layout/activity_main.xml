@@ -37,4 +37,10 @@
         android:layout_height="wrap_content"
         android:text="No image selected" />
 
+    <Button
+        android:id="@+id/buttonTakePicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Picture" />
+
 </LinearLayout>
