@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter API URL"
+        android:text="http://192.168.1.20:3000/"
+        android:inputType="textUri" />
+
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter message here" />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send to Flask" />
+
+    <Button
+        android:id="@+id/buttonChooseImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Image" />
+
+    <TextView
+        android:id="@+id/textViewImagePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No image selected" />
+
+</LinearLayout>
